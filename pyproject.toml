@@ -7,7 +7,9 @@ authors = [
     { name = "Vivianna", email = "60679089+viviannna@users.noreply.github.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "pygithub==1.59.1",
+]
 
 [project.scripts]
 test-multiple-license = "test_multiple_license:main"
